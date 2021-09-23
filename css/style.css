@@ -70,13 +70,14 @@ header nav ul li a {
 #jumbotron {
     background-color: #B4D0E7;
     height: 800px;
+    margin-bottom: 200px;
 }
 
 #jumbo-title {
     float: left;
     font-size: 42px;
     width: 80%;
-    margin: 75px 0 0 0
+    margin: 75px 0 0 170px;
 }
 
 #jumbo-main-text {
@@ -121,11 +122,23 @@ main section {
     width: 100%;
 }
 
-#abbonamenti {
-    /* debug */
-    background-color: blue;
-    height: 200px;
+/* sezione abbonamenti */
+#abbonamenti input:last-of-type {
+    margin-left: 10px;
 }
+
+
+
+
+#subs-title {
+    margin-bottom: 40px;
+}
+
+#subs-title h2{
+    font-size: 45px;
+}
+
+
 
 #contatta-partner {
     /* debug */
