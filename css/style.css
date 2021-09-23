@@ -8,3 +8,77 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
+
+
+
+
+/* header */
+header {
+    /* debug */
+    background: red;
+    height: 80px;
+
+}
+
+/* main */
+
+/* jumbotron */
+#jumbotron {
+    background-color: #B4D0E7;
+    height: 700px;
+}
+
+main section {
+    width: 75%;
+    margin: auto;
+}
+
+.section-100-width {
+    width: 100%;
+}
+
+#abbonamenti {
+    /* debug */
+    background-color: blue;
+    height: 200px;
+}
+
+#contatta-partner {
+    /* debug */
+    background-color: green;
+    height: 200px;
+}
+
+#più-operazioni {
+    /* debug */
+    background-color: orange;
+    height: 200px;
+}
+
+#team-dp-business {
+    /* debug */
+    background-color: yellow;
+    height: 200px;
+}
+
+#freetrial-dp-business {
+    /* debug */
+    background-color: chartreuse;
+    height: 200px;
+}
+
+#QnA {
+    /* debug */
+    background-color: pink;
+    height: 200px;
+}
+
+/* footer */
+footer {
+    /* debug */
+    background-color:black;
+    height: 200px;
+}
