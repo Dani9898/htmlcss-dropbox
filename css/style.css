@@ -9,9 +9,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.cf::after {
+    content:"";
+    display: table;
+    clear: both;
+}
 
-
-
+a {
+    text-decoration: none;
+}
 
 
 
@@ -43,11 +49,10 @@ header nav ul li {
 
 header nav ul li a {
     margin: 0 16px;
-    text-decoration: none;
     color: black
 }
 
-header nav#menù-dx ul li:last-child a {
+.button {
     background-color: #0061FF;
     padding: 9px 20px;
     color: white;
@@ -61,9 +66,49 @@ header nav#menù-dx ul li:last-child a {
 /* jumbotron */
 #jumbotron {
     background-color: #B4D0E7;
-    height: 600px;
+    height: 800px;
 }
 
+#jumbo-title {
+    float: left;
+    font-size: 42px;
+    width: 80%;
+    margin: 75px 0 0 0
+}
+
+#jumbo-main-text {
+    float: left;
+    width: 21%;
+    margin: 50px 0 0 175px;
+    font-weight: 400;
+}
+
+#jumbo-main-text p {
+    margin-bottom: 35px;
+}
+
+#jumbo-btn {
+    margin-bottom: 20px;
+}
+
+.fa-arrow-down {
+    font-size: 50px;
+}
+
+#jumbo-img {
+    float: left;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+#jumbo-img img {
+    height: 510px;
+}
+
+
+
+
+/* sections */
 main section {
     width: 75%;
     margin: auto;
