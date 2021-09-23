@@ -17,18 +17,51 @@ body {
 
 /* header */
 header {
-    /* debug */
-    background: red;
-    height: 80px;
-
+    height: 65px;
+    line-height: 65px;
 }
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    margin: 20px 30px 20px 20px;
+}
+
+header nav#menù-sx {
+    float: left;
+}
+
+header nav#menù-dx {
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: black
+}
+
+header nav#menù-dx ul li:last-child a {
+    background-color: #0061FF;
+    padding: 9px 20px;
+    color: white;
+}
+
+
+
 
 /* main */
 
 /* jumbotron */
 #jumbotron {
     background-color: #B4D0E7;
-    height: 700px;
+    height: 600px;
 }
 
 main section {
