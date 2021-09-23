@@ -123,20 +123,133 @@ main section {
 }
 
 /* sezione abbonamenti */
-#abbonamenti input:last-of-type {
-    margin-left: 10px;
-}
-
-
-
-
 #subs-title {
     margin-bottom: 40px;
 }
 
+
 #subs-title h2{
     font-size: 45px;
 }
+
+#subs-section input:last-of-type {
+    margin-left: 10px;
+}
+
+#subs {
+    margin: 35px 0;
+    height: 1100px;
+}
+
+#subs .col {
+    float: left;
+    width: 30%;
+    border: 2px solid #D0D0D3;
+    height: 100%;
+}
+
+.col-middle {
+    margin: 0 5%;
+}
+
+.sub-target {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid #D0D0D3;
+    padding: 5px 0;
+}
+
+.allineamento-text-sub {
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+#subs h3 {
+    font-size: 33px;
+    margin-bottom: 15px;
+} 
+
+#subs h4.price {
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.durata-sub {
+    color: #637381;
+}
+
+.info-sub {
+    margin-top: 40px;
+}
+
+.info-sub ul {
+    list-style-type: none;
+}
+
+.info-sub ul li {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.button-free-trial {
+    margin-top: 70px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.button-free-trial .button {
+    padding: 9px 75px;
+}
+
+#subs a.acquista-ora {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+.border-bottom {
+    position: relative;
+
+}
+
+.border-bottom span {
+    padding-bottom: 30px;
+    display: block;
+}
+
+.border-bottom::after {
+    content:"";
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid #ccc;
+    width: 15%;
+}
+
+.punti-salienti-sub {
+    margin-top: 40px;
+}
+
+.punti-salienti-sub h4 {
+    font-size: 19px;
+}
+
+.punti-salienti-sub ul li {
+    margin-bottom: 22px;    
+}
+
+.punti-salienti-sub ul li:first-of-type {
+    list-style-type: none;
+    margin-left: -22px;
+}
+
+
+
+
+
+
+
 
 
 
