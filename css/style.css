@@ -126,6 +126,7 @@ main section {
 
 
 
+
 /* sezione abbonamenti */
 #subs-title {
     margin-bottom: 40px;
@@ -204,7 +205,7 @@ main section {
 }
 
 .button-free-trial .button {
-    padding: 9px 75px;
+    padding: 9px 73px;
 }
 
 #subs a.acquista-ora {
@@ -332,16 +333,40 @@ main section {
 
 
 
-
-
-
-
-
 /* sezione più operazioni */
 #più-operazioni {
-    /* debug */
-    background-color: orange;
-    height: 200px;
+
+}
+
+#più-operazioni .row {
+    margin-top: 45px;
+    margin-bottom: 100px;
+    height: 100%;
+}
+
+#più-operazioni h2 {
+    font-size: 45px;;
+}
+
+#più-operazioni .col {
+    width: 30%;
+    float: left;
+}
+
+#più-operazioni .col-middle {
+    margin: 0 5%;
+}
+
+#più-operazioni .col img {
+    width: 100%;
+}
+
+#più-operazioni .col h3 {
+    font-size: 32px;
+}
+
+#più-operazioni .col p {
+    line-height: 22px;
 }
 
 
