@@ -30,6 +30,7 @@ header {
     background-color: white;
     width: 100%;
     border-bottom: 1px solid #D0D0D3;
+    z-index: 99999;
 }
 
 #logo {
@@ -224,12 +225,12 @@ main section {
 }
 
 .border-bottom::after {
-    content:"";
-    position:absolute;
+    content: "";
+    position: absolute;
     left: 0;
     bottom: 0;
     border: 1px solid #ccc;
-    width: 15%;
+    width: 50px;
 }
 
 .punti-salienti-sub {
@@ -372,25 +373,128 @@ main section {
 
 
 
-
-
 /* sezione team dropbox business */
-#team-dp-business {
-    /* debug */
-    background-color: yellow;
-    height: 200px;
+#team-db-business .top {
+    width: 75%;
+    margin: 0 auto 30px auto;
 }
 
-
-
-
-/* sezione free trial dropbox business */
-#freetrial-dp-business {
-    /* debug */
-    background-color: chartreuse;
-    height: 200px;
+#team-db-business .title {
+    width: 50%;
 }
 
+#team-db-business .title h2 {
+    font-size: 50px;
+}
+
+#team-db-business .title a {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+#clienti-db aside {
+    width: 30%;
+    float: left;
+}
+
+#clienti-db .col-middle {
+    width: 40%;
+    float: left;
+    background-color: #F5F5F5;
+    height: 570px;
+}
+
+#clienti-db aside div {
+    width: 50%;
+    height: 285px;
+    background-color: green;
+    float: left;
+    position: relative;
+}
+
+#clienti-db aside div:nth-of-type(1) {
+    background-color: #A2D39B;
+}
+
+#clienti-db aside div:nth-of-type(2) {
+    background-color: #61082B;
+}
+
+#clienti-db aside div:nth-of-type(3) {
+    background-color: #0093CE; 
+}
+
+#clienti-db aside div:nth-of-type(4) {
+    background-color: #FF1C1C;
+}
+
+#clienti-db aside div img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+#clienti-db .col-middle .allineamento-contenuto {
+    width: 80%;
+    margin: 35px auto 0 auto;
+}
+
+#clienti-db .col-middle img {
+    width: 180px;
+    padding-bottom: 50px;
+}
+
+#clienti-db .col-middle p {
+    margin: 60px 0;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(1) {
+    background-color: #D5001F;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(2) {
+    background-color: #B4D0E7;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(3) {
+    background-color: #0D2481;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(4) {
+    background-color: #FFD830;
+}
+
+#team-db-business .bottom {
+    background-color: #B4D0E7;
+    height: 400px;
+}
+
+#team-db-business .bottom .allineamento-contenuto {
+    width: 70%;
+    margin: auto;
+}
+
+#team-db-business .bottom .col-sx {
+   float: left;
+   width: 50%;
+   font-size: 32px;
+   color: #61082B;
+   margin-top: 135px;
+}
+
+#team-db-business .bottom .col-dx {
+    float: right;
+    width: 30%;
+    margin-top: 135px;
+ }
+
+ #team-db-business .bottom .button {
+     background-color: white;
+     color: black;
+ }
 
 
 

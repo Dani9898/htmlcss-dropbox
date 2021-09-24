@@ -18,27 +18,27 @@
 <body>
     <!-- intestazione -->
     <header>
-        <div>
-        <div id="logo">
-            <a href="#"><img src="img/logo-small.png" alt="logo db"></a>
-        </div>
-        <!-- menù sx -->
-        <nav id="menù-sx">
-            <ul>
-                <li><a href="#">Perchè Dropbox</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e prezzi</a></li>
-            </ul>
-        </nav>
-        <!-- menu dx -->
-        <nav id="menù-dx">
-            <ul>
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-                <li><a class="button" href="#">Inizia</a></li>
-            </ul>
-        </nav>
+        <div class="cf">
+            <div id="logo">
+                <a href="#"><img src="img/logo-small.png" alt="logo db"></a>
+            </div>
+            <!-- menù sx -->
+            <nav id="menù-sx">
+                <ul>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e prezzi</a></li>
+                </ul>
+            </nav>
+            <!-- menu dx -->
+            <nav id="menù-dx">
+                <ul>
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><a class="button" href="#">Inizia</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -47,25 +47,28 @@
 
         <!-- jumbotron -->
         <div id="jumbotron">
-            <!-- jumbotron titolo -->
-            <div id="jumbo-title">
+            <div class="cf">
+                <!-- jumbotron titolo -->
+                <div id="jumbo-title">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-            </div>      
-            <!-- jumbotron testo    -->
-            <div id="jumbo-main-text">
-                <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.              
-                </p>
-                <!-- jumbotron button -->
-                <div id="jumbo-btn">
-                        <a class="button" href="#">Inizia la tua prova gratuita</a>
+                </div>      
+                <!-- jumbotron testo    -->
+                <div id="jumbo-main-text">
+                    <p>
+                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.              
+                    </p>
+                    <!-- jumbotron button -->
+                    <div id="jumbo-btn">
+                            <a class="button" href="#">Inizia la tua prova gratuita</a>
+                    </div>
+                    <p>Annulla in qualsiasi momento</p>
+                    <i class="fas fa-arrow-down"></i>
                 </div>
-                <p>Annulla in qualsiasi momento</p>
-                <i class="fas fa-arrow-down"></i>
-            </div>
-            <!-- jumbotron image -->
-            <div id="jumbo-img">
-                <img src="img/jumbo.png" alt="jumbo image">
-            </div>
+                <!-- jumbotron image -->
+                <div id="jumbo-img">
+                    <img src="img/jumbo.png" alt="jumbo image">
+                </div>
+            </div>        
         </div>
 
         <!-- Sezione Abbonamenti -->
@@ -286,12 +289,73 @@
         </section>
 
         <!-- Sezione 500.000 team utilizzano dropbox business -->
-        <section id="team-dp-business" class="section-100-width">
-            <h2>Più di 500.000 team  utilizzano Dropbox Business</h2>
+        <section id="team-db-business" class="section-100-width">
+            <!-- titolo -->
+            <div class="top">
+                <div class="title">
+                    <h2>Più di 500.000 team  utilizzano Dropbox Business</h2>
+                    <a href="#">Scopri di più sui nostri clienti</a>
+                </div>
+            </div>
+            <!-- contenuto -->
+            <div id="clienti-db">
+                <div class="cf">
+                    <aside>
+                        <div>
+                            <img src="img/designit.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="img/arizona_state_university.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="img/university_of_florida.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="img/topps.svg" alt="">
+                        </div>  
+                    </aside>
+    
+                    <div class="col-middle">
+                        <div class="allineamento-contenuto">
+                            <div class="border-bottom">
+                                <img src="img/designit.svg" alt="">
+                            </div>
+                            <p>
+                                "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze,ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
+                            </p>
+                            <span>Morten Thomsen, Global IT Lead</span>
+                        </div>
+                    </div>
+    
+                    <aside>   
+                        <div>
+                            <img src="img/world_bicycle_relief.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="img/hearst_corp.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="img/lonely_planet.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="img/clear_channel.svg" alt="">
+                        </div>
+                    </aside>
+                </div>           
+            </div>
+            <div class="bottom">
+                <div class="allineamento-contenuto">
+                    <div class="cf">
+                        <div class="col-sx col">
+                            <h2>Porta Dropbox Business nella tua azienda</h2>
+                        </div>
+                        <div class="col-dx col">
+                            <a class="button" href="#">Inizia la tua prova gratuita</a>
+                        </div>                       
+                    </div>       
+                </div>
+            </div>         
         </section>
-
-        <!-- Sezione free trial dp business -->
-        <section id="freetrial-dp-business" class="section-100-width"></section>
 
         <!-- Sezione Q&A -->
         <section id="QnA"></section>
