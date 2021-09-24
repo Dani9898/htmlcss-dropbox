@@ -335,14 +335,14 @@ main section {
 
 /* sezione più operazioni */
 #più-operazioni {
-
+    margin-bottom: 250px;
 }
 
-#più-operazioni .row {
-    margin-top: 45px;
-    margin-bottom: 100px;
-    height: 100%;
+#più-operazioni .row:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 90px;
 }
+
 
 #più-operazioni h2 {
     font-size: 45px;;
