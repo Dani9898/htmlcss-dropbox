@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
 }
 
 .cf::after {
@@ -28,6 +29,7 @@ header {
     position: fixed;
     background-color: white;
     width: 100%;
+    border-bottom: 1px solid #D0D0D3;
 }
 
 #logo {
@@ -64,6 +66,7 @@ header nav ul li a {
 
 
 
+
 /* main */
 
 /* jumbotron */
@@ -84,7 +87,6 @@ header nav ul li a {
     float: left;
     width: 21%;
     margin: 50px 0 0 175px;
-    font-weight: 400;
 }
 
 #jumbo-main-text p {
@@ -122,6 +124,8 @@ main section {
     width: 100%;
 }
 
+
+
 /* sezione abbonamenti */
 #subs-title {
     margin-bottom: 40px;
@@ -138,24 +142,24 @@ main section {
 
 #subs {
     margin: 35px 0;
-    height: 1100px;
 }
 
+/* colonne */
 #subs .col {
     float: left;
     width: 30%;
     border: 2px solid #D0D0D3;
-    height: 100%;
+    height: 1100px;
 }
 
-.col-middle {
+#subs .col-middle {
     margin: 0 5%;
 }
 
 .sub-target {
     font-size: 25px;
     text-align: center;
-    border-bottom: 2px solid #D0D0D3;
+    border-bottom: 1px solid #D0D0D3;
     padding: 5px 0;
 }
 
@@ -235,48 +239,137 @@ main section {
     font-size: 19px;
 }
 
+.punti-salienti-sub ul {
+    list-style-type: none;
+}
+
+.punti-salienti-sub ul li:not(:first-child) {
+    list-style-type: "\2713";
+}
+
+::marker {
+    font-size: 20px;
+    color: #0061FF;
+}
+
 .punti-salienti-sub ul li {
     margin-bottom: 22px;    
 }
 
-.punti-salienti-sub ul li:first-of-type {
-    list-style-type: none;
-    margin-left: -22px;
+/* bottom box */
+#bottom-box {
+    width: 100%;
+    border: 1px solid #D0D0D3;
+    margin-top: 30px;
+}
+
+#bottom-box-allineamento-content {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#bottom-box-text {
+    float: left;
+}
+
+#bottom-box h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#bottom-box-btn  {
+    float: right;
+    margin-top: 19px;
+}
+
+#bottom-box-btn .button {
+    padding: 9px 60px;
 }
 
 
 
 
-
-
-
-
-
-
+/* sezione contatta partner */
 #contatta-partner {
-    /* debug */
-    background-color: green;
-    height: 200px;
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
 
+#contatta-partner .col {
+    float: left;
+}
+
+#contatta-partner .col-sx {
+    width: 50%;
+    margin-right: 5%;
+}
+
+#contatta-partner .col-sx img {
+    width: 100%;
+}
+
+#contatta-partner .col-dx {
+    width: 45%;
+}
+
+#contatta-partner .col-dx h3 {
+    font-size: 39px;
+    margin: 50px 0;
+}
+
+#contatta-partner .col-dx p {
+    line-height: 36px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#contatta-partner .col-dx .button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* sezione più operazioni */
 #più-operazioni {
     /* debug */
     background-color: orange;
     height: 200px;
 }
 
+
+
+
+
+
+/* sezione team dropbox business */
 #team-dp-business {
     /* debug */
     background-color: yellow;
     height: 200px;
 }
 
+
+
+
+/* sezione free trial dropbox business */
 #freetrial-dp-business {
     /* debug */
     background-color: chartreuse;
     height: 200px;
 }
 
+
+
+
+/* sezione q&a */
 #QnA {
     /* debug */
     background-color: pink;
