@@ -23,6 +23,47 @@ a {
 
 
 
+/* BONUS */
+header nav {
+    padding: 24px 0;
+}
+
+header nav ul li a {
+    padding: 24px 0;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+header nav ul li ul {
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    margin-top: 26px;
+}
+
+header nav ul li ul li {
+    display: block;
+    padding: 16px 19px;
+}
+
+header nav ul li ul li a:hover {
+    background-color: #ccc;
+}
+
+
+header nav ul li ul li a {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
 /* header */
 header {
     width: 100%;
@@ -43,10 +84,6 @@ header nav#menù-sx {
 
 header nav#menù-dx {
     float: right;
-}
-
-header nav ul {
-    line-height: 70px;
 }
 
 header nav ul li {
