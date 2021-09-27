@@ -1,0 +1,577 @@
+/* generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.cf::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* header */
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #D0D0D3;
+    position: fixed;
+    z-index: 99999;
+}
+
+header #logo {
+    float: left;
+    padding: 20px 30px;
+}
+
+header nav#menù-sx {
+    float: left;
+}
+
+header nav#menù-dx {
+    float: right;
+}
+
+header nav ul {
+    line-height: 70px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 16px;
+    color: black;
+}
+
+.button {
+    background-color: #0061FF;
+    padding: 9px 20px;
+    color: white;
+}
+
+
+
+
+/* main */
+
+/* jumbotron */
+#jumbotron {
+    background-color: #B4D0E7;
+    margin-bottom: 200px;
+    position: relative;
+    padding: 100px 0;
+}
+
+#jumbo-title {
+    float: left;
+    font-size: 42px;
+    width: 80%;
+    margin-left: 170px;
+}
+
+#jumbo-main-text {
+    float: left;
+    width: 21%;
+    margin: 50px 0 0 17000px;
+}
+
+#jumbo-main-text p {
+    margin-bottom: 35px;
+}
+
+#jumbo-btn {
+    margin-bottom: 20px;
+}
+
+.fa-arrow-down {
+    font-size: 50px;
+}
+
+#jumbo-img {
+    position: absolute;
+    right: 302px;
+    bottom: -70px;
+}
+
+
+#jumbo-img img {
+    height: 510px;
+}
+
+
+
+
+/* sections */
+section {
+    width: 75%;
+    margin: auto;
+}
+
+.section-100-width {
+    width: 100%;
+}
+
+
+
+
+/* sezione abbonamenti */
+#subs-title {
+    margin-bottom: 40px;
+}
+
+
+#subs-title h2{
+    font-size: 45px;
+}
+
+#subs-section input:last-of-type {
+    margin-left: 10px;
+}
+
+#subs {
+    margin: 35px 0;
+}
+
+/* colonne */
+#subs .col {
+    float: left;
+    width: 30%;
+    border: 2px solid #D0D0D3;
+    height: 1100px;
+}
+
+#subs .col-middle {
+    margin: 0 5%;
+}
+
+.sub-target {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid #D0D0D3;
+    padding: 5px 0;
+}
+
+.allineamento-text-sub {
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+#subs h3 {
+    font-size: 33px;
+    margin-bottom: 15px;
+} 
+
+#subs h4.price {
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.durata-sub {
+    color: #637381;
+}
+
+.info-sub {
+    margin-top: 40px;
+}
+
+.info-sub ul {
+    list-style-type: none;
+}
+
+.info-sub ul li {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.button-free-trial {
+    margin-top: 70px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.button-free-trial .button {
+    padding: 9px 73px;
+}
+
+#subs a.acquista-ora {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+.border-bottom {
+    position: relative;
+
+}
+
+.border-bottom span {
+    padding-bottom: 30px;
+    display: block;
+}
+
+.border-bottom::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid #ccc;
+    width: 50px;
+}
+
+.punti-salienti-sub {
+    margin-top: 40px;
+}
+
+.punti-salienti-sub h4 {
+    font-size: 19px;
+}
+
+.punti-salienti-sub ul {
+    list-style-type: none;
+}
+
+.punti-salienti-sub ul li:not(:first-child) {
+    list-style-type: "\2713";
+}
+
+.punti-salienti-sub ul li:not(:first-child)::marker {
+    font-size: 20px;
+    color: #0061FF;
+}
+
+.punti-salienti-sub ul li {
+    margin-bottom: 22px;    
+}
+
+/* bottom box */
+#bottom-box {
+    width: 100%;
+    border: 1px solid #D0D0D3;
+    margin-top: 30px;
+}
+
+#bottom-box-allineamento-content {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#bottom-box-text {
+    float: left;
+}
+
+#bottom-box h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#bottom-box-btn  {
+    float: right;
+    margin-top: 19px;
+}
+
+#bottom-box-btn .button {
+    padding: 9px 60px;
+}
+
+
+
+
+/* sezione contatta partner */
+#contatta-partner {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+#contatta-partner .col {
+    float: left;
+}
+
+#contatta-partner .col-sx {
+    width: 50%;
+    margin-right: 5%;
+}
+
+#contatta-partner .col-sx img {
+    width: 100%;
+}
+
+#contatta-partner .col-dx {
+    width: 45%;
+}
+
+#contatta-partner .col-dx h3 {
+    font-size: 39px;
+    margin: 50px 0;
+}
+
+#contatta-partner .col-dx p {
+    line-height: 36px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#contatta-partner .col-dx .button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+/* sezione più operazioni */
+#più-operazioni {
+    margin-bottom: 250px;
+}
+
+#più-operazioni .row:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+
+#più-operazioni h2 {
+    font-size: 45px;;
+}
+
+#più-operazioni .col {
+    width: 30%;
+    float: left;
+}
+
+#più-operazioni .col-middle {
+    margin: 0 5%;
+}
+
+#più-operazioni .col img {
+    width: 100%;
+}
+
+#più-operazioni .col h3 {
+    font-size: 32px;
+}
+
+#più-operazioni .col p {
+    line-height: 22px;
+}
+
+
+
+
+/* sezione team dropbox business */
+#team-db-business .top {
+    width: 75%;
+    margin: 0 auto 30px auto;
+}
+
+#team-db-business .title {
+    width: 50%;
+}
+
+#team-db-business .title h2 {
+    font-size: 50px;
+}
+
+#team-db-business .title a {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+#clienti-db aside {
+    width: 30%;
+    float: left;
+}
+
+#clienti-db .col-middle {
+    width: 40%;
+    float: left;
+    background-color: #F5F5F5;
+    height: 570px;
+    overflow: auto;
+}
+
+#clienti-db aside div {
+    width: 50%;
+    height: 285px;
+    float: left;
+    position: relative;
+}
+
+#clienti-db aside:first-of-type div:nth-of-type(1) {
+    background-color: #A2D39B;
+    border: 15px solid #D0E9CD;
+}
+
+#clienti-db aside div:nth-of-type(2) {
+    background-color: #61082B;
+}
+
+#clienti-db aside div:nth-of-type(3) {
+    background-color: #0093CE; 
+}
+
+#clienti-db aside div:nth-of-type(4) {
+    background-color: #FF1C1C;
+}
+
+#clienti-db aside div img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+#clienti-db .col-middle .allineamento-contenuto {
+    width: 80%;
+    margin: 35px auto 0 auto;
+}
+
+#clienti-db .col-middle img {
+    width: 180px;
+    padding-bottom: 50px;
+}
+
+#clienti-db .col-middle p {
+    margin: 60px 0;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(1) {
+    background-color: #D5001F;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(2) {
+    background-color: #B4D0E7;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(3) {
+    background-color: #0D2481;
+}
+
+#clienti-db aside:nth-of-type(2) div:nth-of-type(4) {
+    background-color: #FFD830;
+}
+
+#team-db-business .bottom {
+    background-color: #B4D0E7;
+    padding: 120px 0;
+}
+
+#team-db-business .bottom .allineamento-contenuto {
+    width: 70%;
+    margin: auto;
+}
+
+#team-db-business .bottom .col-sx {
+   float: left;
+   width: 44%;
+   font-size: 32px;
+   color: #61082B;
+}
+
+#team-db-business .bottom .col-dx {
+    float: right;
+ }
+
+ #team-db-business .bottom .button {
+     background-color: white;
+     color: black;
+ }
+
+
+
+
+/* sezione q&a */
+#QnA {
+    margin: 140px auto;
+}
+
+#QnA h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#QnA .question {
+    padding: 40px 0;
+    border-top: 1px solid #DCDCDE;
+    position: relative;
+}
+
+#QnA .question:last-of-type {
+    border-bottom: 1px solid #DCDCDE;
+}
+
+#QnA span {
+    font-weight: 700;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* footer */
+footer {
+    color: white;
+    background-color:black;
+    font-size: 15px;
+}
+
+footer .col {
+    float: left;
+    width: 20%;
+    margin: 90px 0;
+}
+
+footer .col ul {
+    list-style-type: none;
+}
+
+footer .col ul li:first-of-type {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+footer .col ul li {
+    padding: 2px 0;
+}
+
+footer .col ul li a {
+    color: white;
+}
+
+footer .border-top {
+    border-top: 1px solid white;
+    width: 8%;
+    opacity: 0.7;
+}
+
+footer .lang {
+    opacity: 0.7;
+    padding: 45px 0;
+}
+
+footer .lang a {
+    color: white;
+}
