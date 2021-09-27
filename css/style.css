@@ -18,27 +18,23 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 
 
 /* header */
 header {
-    height: 65px;
-    line-height: 65px;
-    position: fixed;
-    background-color: white;
     width: 100%;
+    background-color: white;
     border-bottom: 1px solid #D0D0D3;
+    position: fixed;
     z-index: 99999;
 }
 
-#logo {
+header #logo {
     float: left;
-}
-
-#logo img {
-    margin: 20px 30px 20px 20px;
+    padding: 20px 30px;
 }
 
 header nav#menù-sx {
@@ -47,6 +43,10 @@ header nav#menù-sx {
 
 header nav#menù-dx {
     float: right;
+}
+
+header nav ul {
+    line-height: 70px;
 }
 
 header nav ul li {
@@ -72,21 +72,22 @@ header nav ul li a {
 /* jumbotron */
 #jumbotron {
     background-color: #B4D0E7;
-    height: 800px;
     margin-bottom: 200px;
+    position: relative;
+    padding: 100px 0;
 }
 
 #jumbo-title {
     float: left;
     font-size: 42px;
     width: 80%;
-    margin: 75px 0 0 170px;
+    margin-left: 170px;
 }
 
 #jumbo-main-text {
     float: left;
     width: 21%;
-    margin: 50px 0 0 175px;
+    margin: 50px 0 0 170px;
 }
 
 #jumbo-main-text p {
@@ -102,10 +103,11 @@ header nav ul li a {
 }
 
 #jumbo-img {
-    float: left;
-    margin-top: 50px;
-    margin-left: 115px;
+    position: absolute;
+    right: 302px;
+    bottom: -70px;
 }
+
 
 #jumbo-img img {
     height: 510px;
@@ -115,7 +117,7 @@ header nav ul li a {
 
 
 /* sections */
-main section, footer section {
+section {
     width: 75%;
     margin: auto;
 }
@@ -478,7 +480,7 @@ main section, footer section {
 
 #team-db-business .bottom .col-sx {
    float: left;
-   width: 42%;
+   width: 44%;
    font-size: 32px;
    color: #61082B;
    margin-top: 135px;
