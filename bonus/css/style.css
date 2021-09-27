@@ -32,7 +32,7 @@ header nav ul li a {
     padding: 24px 0;
 }
 
-header nav > ul > li:not(:nth-child(4)) > a{
+header nav > ul > li:not(:nth-child(4)) > a:hover{
     border-bottom: 2px solid black;
 }
 
