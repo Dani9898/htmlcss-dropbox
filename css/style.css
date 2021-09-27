@@ -55,7 +55,7 @@ header nav ul li {
 
 header nav ul li a {
     margin: 0 16px;
-    color: black
+    color: black;
 }
 
 .button {
@@ -63,7 +63,6 @@ header nav ul li a {
     padding: 9px 20px;
     color: white;
 }
-
 
 
 
@@ -116,7 +115,7 @@ header nav ul li a {
 
 
 /* sections */
-main section {
+main section, footer section {
     width: 75%;
     margin: auto;
 }
@@ -249,7 +248,7 @@ main section {
     list-style-type: "\2713";
 }
 
-::marker {
+.punti-salienti-sub ul li:not(:first-child)::marker {
     font-size: 20px;
     color: #0061FF;
 }
@@ -407,13 +406,13 @@ main section {
 #clienti-db aside div {
     width: 50%;
     height: 285px;
-    background-color: green;
     float: left;
     position: relative;
 }
 
-#clienti-db aside div:nth-of-type(1) {
+#clienti-db aside:first-of-type div:nth-of-type(1) {
     background-color: #A2D39B;
+    border: 15px solid #D0E9CD;
 }
 
 #clienti-db aside div:nth-of-type(2) {
@@ -479,7 +478,7 @@ main section {
 
 #team-db-business .bottom .col-sx {
    float: left;
-   width: 50%;
+   width: 42%;
    font-size: 32px;
    color: #61082B;
    margin-top: 135px;
@@ -487,7 +486,6 @@ main section {
 
 #team-db-business .bottom .col-dx {
     float: right;
-    width: 30%;
     margin-top: 135px;
  }
 
@@ -498,16 +496,81 @@ main section {
 
 
 
+
 /* sezione q&a */
 #QnA {
-    /* debug */
-    background-color: pink;
-    height: 200px;
+    margin: 140px auto;
 }
+
+#QnA h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#QnA .question {
+    padding: 40px 0;
+    border-top: 1px solid #DCDCDE;
+    position: relative;
+}
+
+#QnA .question:last-of-type {
+    border-bottom: 1px solid #DCDCDE;
+}
+
+#QnA span {
+    font-weight: 700;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* footer */
 footer {
-    /* debug */
+    color: white;
     background-color:black;
-    height: 200px;
+    font-size: 15px;
+}
+
+footer .col {
+    float: left;
+    width: 20%;
+    margin: 90px 0;
+}
+
+footer .col ul {
+    list-style-type: none;
+}
+
+footer .col ul li:first-of-type {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+footer .col ul li {
+    padding: 2px 0;
+}
+
+footer .col ul li a {
+    color: white;
+}
+
+footer .border-top {
+    border-top: 1px solid white;
+    width: 8%;
+    opacity: 0.7;
+}
+
+footer .lang {
+    opacity: 0.7;
+    padding: 45px 0;
+}
+
+footer .lang a {
+    color: white;
 }
