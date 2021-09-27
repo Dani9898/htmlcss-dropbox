@@ -87,7 +87,7 @@ header nav ul li a {
 #jumbo-main-text {
     float: left;
     width: 21%;
-    margin: 50px 0 0 170px;
+    margin: 50px 0 0 17000px;
 }
 
 #jumbo-main-text p {
@@ -403,6 +403,7 @@ section {
     float: left;
     background-color: #F5F5F5;
     height: 570px;
+    overflow: auto;
 }
 
 #clienti-db aside div {
@@ -470,7 +471,7 @@ section {
 
 #team-db-business .bottom {
     background-color: #B4D0E7;
-    height: 400px;
+    padding: 120px 0;
 }
 
 #team-db-business .bottom .allineamento-contenuto {
@@ -483,12 +484,10 @@ section {
    width: 44%;
    font-size: 32px;
    color: #61082B;
-   margin-top: 135px;
 }
 
 #team-db-business .bottom .col-dx {
     float: right;
-    margin-top: 135px;
  }
 
  #team-db-business .bottom .button {
